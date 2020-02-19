@@ -1,0 +1,222 @@
+//
+// SASS style sheet */
+// Palette color codes */
+// Palette URL: http://paletton.com/#uid=53x0u0kllll00Q0aGuaw0cw++3F */
+
+
+
+// As hex codes */
+
+$color-primary: #29506D;	// Main Primary color */
+$color-primary-lighter: #E0E0E0;
+$color-primary-light: #6A869B;
+$color-primary-dark: #042640;
+$color-primary-darker: #000B13;
+
+$color-secondary: #343477;	// Main Secondary color (1) */
+$color-secondary-1-lighter: #E5E5E5;
+$color-secondary-1-light: #7979A8;
+$color-secondary-1-dark: #0A0A46;
+$color-secondary-1-darker: #000014;
+
+$color-secondary: #277553;	// Main Secondary color (2) */
+$color-secondary-2-lighter: #E3E3E3;
+$color-secondary-2-light: #6EA58D;
+$color-secondary-2-dark: #004427;
+$color-secondary-2-darker: #00140B;
+
+$color-complement: #AA7939;	// Main Complement color */
+$color-complement-lighter: #FFFFFF;
+$color-complement-light: #F0CEA0;
+$color-complement-dark: #643900;
+$color-complement-darker: #1D1100;
+
+
+// As RGBa codes */
+
+$rgba-primary: rgba( 41, 80,109,1);	// Main Primary color */
+$rgba-primary-lighter: rgba(224,224,224,1);
+$rgba-primary-light: rgba(106,134,155,1);
+$rgba-primary-dark: rgba(  4, 38, 64,1);
+$rgba-primary-darker: rgba(  0, 11, 19,1);
+
+$rgba-secondary: rgba( 52, 52,119,1);	// Main Secondary color (1) */
+$rgba-secondary-1-lighter: rgba(229,229,229,1);
+$rgba-secondary-1-light: rgba(121,121,168,1);
+$rgba-secondary-1-dark: rgba( 10, 10, 70,1);
+$rgba-secondary-1-darker: rgba(  0,  0, 20,1);
+
+$rgba-secondary: rgba( 39,117, 83,1);	// Main Secondary color (2) */
+$rgba-secondary-2-lighter: rgba(227,227,227,1);
+$rgba-secondary-2-light: rgba(110,165,141,1);
+$rgba-secondary-2-dark: rgba(  0, 68, 39,1);
+$rgba-secondary-2-darker: rgba(  0, 20, 11,1);
+
+@import "nav";
+
+@mixin semi-trasparent($color, $opacity: 0.7) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/roya-ann-miller-E2_k8SsuS7s-unsplash.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .semi-trans {
+    @include semi-trasparent($color-secondary-2-lighter, .6);
+  }
+}
+
+.parallax-2 {
+  /* The image used */
+  background-image: url("../img/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .semi-trans {
+    @include semi-trasparent($color-secondary-1-lighter, .6);
+  }
+}
+
+.parallax-3 {
+  /* The image used */
+  background-image: url("../img/raquel-garcia-BAiSZDx4LgE-unsplash.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .semi-trans {
+    @include semi-trasparent($color-secondary-1-lighter, .6);
+  }
+}
+
+body {
+  margin-top: 5em;
+}
+
+footer {
+  background-color: $color-secondary-1-lighter;
+}
+
+#gallery {
+  background-color: black;
+}
+
+.carousel .carousel-inner .carousel-item {
+  transition-duration: 1.5s;
+  img, a {
+    display: block;
+    line-height: 1;
+    width: 100%;
+  }
+  .carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
+
+  }
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 720px) {
+  .carousel-caption h1 {
+    font-size: 1.5em;
+  }
+}
+
+.section {
+  padding-bottom: 2.5em;
+}
+
+#specialty {
+  padding-top: 2.5em;
+  h2 {
+    padding: 1em;
+    margin-bottom: 1em;
+    @include semi-trasparent($color-secondary-2-light, .8);
+  }
+  .card {
+    margin-bottom: .8em;
+    @include semi-trasparent($color-secondary-2-light, .8);
+  }
+}
+
+#about {
+  background-color: $color-secondary-1-dark;
+  h2 {
+    @include semi-trasparent($color-secondary-1-light, .8);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+  }
+  p {
+    @include semi-trasparent($color-secondary-1-lighter, .8);
+    margin: 0 1em;
+    padding: 1em;
+  }
+  img {
+    margin: 1em;
+  }
+}
+
+#approach {
+  padding-top: 2.5em;
+  h2 {
+    padding: 1em;
+    margin-bottom: 1em;
+    @include semi-trasparent($color-primary-light, .8);
+  }
+  p {
+    margin-bottom: .8em;
+    padding: 1em;
+    @include semi-trasparent($color-primary-light, .8);
+  }
+}
+
+#services {
+  background-color: $color-complement-dark;
+  h2 {
+    @include semi-trasparent($color-complement-light, .8);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+  }
+  p {
+    @include semi-trasparent($color-complement-lighter, .8);
+    margin: 0 1em;
+    padding: 1em;
+  }
+  img {
+    margin: 1em;
+  }
+}
+
+#tele-therapy {
+  padding-top: 2.5em;
+  h2 {
+    padding: 1em;
+    margin-bottom: 1em;
+    @include semi-trasparent($color-secondary-1-light, .8);
+  }
+  p {
+    margin-bottom: .8em;
+    padding: 1em;
+    @include semi-trasparent($color-secondary-1-light, .8);
+  }
+}

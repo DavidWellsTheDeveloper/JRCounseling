@@ -1,0 +1,224 @@
+nav {
+  background-color: #042640;
+}
+
+nav .navbar-toggler {
+  color: #FFFFFF;
+}
+
+nav ul li a {
+  color: #F0CEA0;
+}
+
+nav ul li a:hover {
+  color: #1D1100;
+  background-color: #6A869B;
+}
+
+nav ul .active a {
+  color: #29506D;
+  background-color: #E3E3E3;
+}
+
+nav ul .active a:hover {
+  background-color: #7979A8;
+  color: #042640;
+}
+
+nav .navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding: 0 0 0;
+  color: #6A869B;
+  font-size: 2em;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(/images/roya-ann-miller-E2_k8SsuS7s-unsplash.jpg?9a657cd13b6c9faaa6e8e5c0c1fd59cd);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax .semi-trans {
+  background: #E3E3E3;
+  background: rgba(227, 227, 227, 0.6);
+}
+
+.parallax-2 {
+  /* The image used */
+  background-image: url(/images/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg?8920a901996568bd059102ecd4461b5a);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 .semi-trans {
+  background: #E5E5E5;
+  background: rgba(229, 229, 229, 0.6);
+}
+
+.parallax-3 {
+  /* The image used */
+  background-image: url(/images/raquel-garcia-BAiSZDx4LgE-unsplash.jpg?5d3f049bcf9395cf1e206a42e5c9a6fb);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3 .semi-trans {
+  background: #E5E5E5;
+  background: rgba(229, 229, 229, 0.6);
+}
+
+body {
+  margin-top: 5em;
+}
+
+footer {
+  background-color: #E5E5E5;
+}
+
+#gallery {
+  background-color: black;
+}
+
+.carousel .carousel-inner .carousel-item {
+  transition-duration: 1.5s;
+}
+
+.carousel .carousel-inner .carousel-item img,
+.carousel .carousel-inner .carousel-item a {
+  display: block;
+  line-height: 1;
+  width: 100%;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%;
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 720px) {
+  .carousel-caption h1 {
+    font-size: 1.5em;
+  }
+}
+
+.section {
+  padding-bottom: 2.5em;
+}
+
+#specialty {
+  padding-top: 2.5em;
+}
+
+#specialty h2 {
+  padding: 1em;
+  margin-bottom: 1em;
+  background: #6EA58D;
+  background: rgba(110, 165, 141, 0.8);
+}
+
+#specialty .card {
+  margin-bottom: 0.8em;
+  background: #6EA58D;
+  background: rgba(110, 165, 141, 0.8);
+}
+
+#about {
+  background-color: #0A0A46;
+}
+
+#about h2 {
+  background: #7979A8;
+  background: rgba(121, 121, 168, 0.8);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+#about p {
+  background: #E5E5E5;
+  background: rgba(229, 229, 229, 0.8);
+  margin: 0 1em;
+  padding: 1em;
+}
+
+#about img {
+  margin: 1em;
+}
+
+#approach {
+  padding-top: 2.5em;
+}
+
+#approach h2 {
+  padding: 1em;
+  margin-bottom: 1em;
+  background: #6A869B;
+  background: rgba(106, 134, 155, 0.8);
+}
+
+#approach p {
+  margin-bottom: 0.8em;
+  padding: 1em;
+  background: #6A869B;
+  background: rgba(106, 134, 155, 0.8);
+}
+
+#services {
+  background-color: #643900;
+}
+
+#services h2 {
+  background: #F0CEA0;
+  background: rgba(240, 206, 160, 0.8);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+#services p {
+  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0 1em;
+  padding: 1em;
+}
+
+#services img {
+  margin: 1em;
+}
+
+#tele-therapy {
+  padding-top: 2.5em;
+}
+
+#tele-therapy h2 {
+  padding: 1em;
+  margin-bottom: 1em;
+  background: #7979A8;
+  background: rgba(121, 121, 168, 0.8);
+}
+
+#tele-therapy p {
+  margin-bottom: 0.8em;
+  padding: 1em;
+  background: #7979A8;
+  background: rgba(121, 121, 168, 0.8);
+}
+
