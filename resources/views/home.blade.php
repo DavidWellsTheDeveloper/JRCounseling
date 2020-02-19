@@ -66,62 +66,62 @@
 
 <div class="section parallax" id="specialty">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col">
+    <div class="row justify-content-around">
+      <div class="col-md-8">
         <h2 class="text-center">Specialties</h2>
       </div>
     </div>
-    <div class="row card-deck">
-      <div class="col-xl-4 col-md-6">
+    <div class="row">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">EMDR</h5>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Trauma Informed Care</h5>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Anxiety and Depression</h5>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Life Transitions</h5>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Survivors of Crime</h5>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Survivors of Sexual Violence</h5>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Community Re-Entry</h5>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Co-Occurring Substance Use and Mental Health problems</h5>
@@ -135,7 +135,7 @@
 <div class="section" id="about">
   <div class="container-fluid">
     <div class="row justify-content-around">
-      <div class="col-md-6 col-12">
+      <div class="col-md-8">
         <h2>About Me</h2>
       </div>
     </div>
@@ -188,7 +188,7 @@ Reprocessing (EMDR), and Motivational Interviewing. I offer my sessions in perso
   <div class="container-fluid">
     <div class="row">
       <div class="col-auto">
-        
+
       </div>
     </div>
   </div>

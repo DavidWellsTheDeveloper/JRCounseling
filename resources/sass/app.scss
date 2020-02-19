@@ -59,6 +59,31 @@ $rgba-secondary-2-darker: rgba(  0, 20, 11,1);
   background: rgba($color, $opacity);
 }
 
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.2rem;
+}
+
+h5 {
+  font-size: 1.7rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+
 .parallax {
   /* The image used */
   background-image: url("../img/roya-ann-miller-E2_k8SsuS7s-unsplash.jpg");
@@ -125,18 +150,6 @@ footer {
     bottom: 0;
     top: 50%;
 
-  }
-}
-
-@media (max-width: 1200px) {
-  .carousel-caption h1 {
-    font-size: 3em;
-  }
-}
-
-@media (max-width: 720px) {
-  .carousel-caption h1 {
-    font-size: 1.5em;
   }
 }
 
@@ -220,3 +233,22 @@ footer {
     @include semi-trasparent($color-secondary-1-light, .8);
   }
 }
+
+
+// @media (max-width: 1200px) {
+//   .carousel-caption h1 {
+//     font-size: 3em;
+//   }
+// }
+//
+// @media (max-width: 720px) {
+//   .carousel-caption h1 {
+//     font-size: 1.5em;
+//   }
+// }
+//
+// @media (max-width: 400px) {
+//   p {
+//     font-size: 24px;
+//   }
+// }
