@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-md fixed-top">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
   <span class="navbar-brand"><i class="fas fa-leaf"></i></span>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto mr-4">
       <li class="nav-item">
         <a class="nav-link" href="#specialty"><i class="fas fa-home"></i> Specialties</a>
