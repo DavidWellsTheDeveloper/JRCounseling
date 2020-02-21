@@ -17,37 +17,37 @@
       <div class="carousel-item active">
         <img src="{{url('img/alex-dukhanov-MFM8ASk4XNs-unsplash.jpg')}}" alt="snowy trees">
         <div class="carousel-caption">
-          <h1 class="display-3">John Rowe Counseling</h1>
+          <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{url('img/ben-karpinski-aJAfKxscG3k-unsplash.jpg')}}" alt="misty mountain">
         <div class="carousel-caption">
-          <h1 class="display-3">John Rowe Counseling</h1>
+          <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{url('img/emre-ozturk-lfyKGQWEbew-unsplash.jpg')}}" alt="sunny mushrooms">
         <div class="carousel-caption">
-          <h1 class="display-3">John Rowe Counseling</h1>
+          <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{url('img/janke-laskowski-WJyCRU1m7h8-unsplash.jpg')}}" alt="lake with rock spire">
         <div class="carousel-caption">
-          <h1 class="display-3">John Rowe Counseling</h1>
+          <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{url('img/julie-marsh-payOjEt5qYY-unsplash.jpg')}}" alt="Tall forest">
         <div class="carousel-caption">
-          <h1 class="display-3">John Rowe Counseling</h1>
+          <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{url('img/luca-zanon-X0OoHrPvgXE-unsplash.jpg')}}" alt="Soft mountains">
         <div class="carousel-caption">
-          <h1 class="display-3">John Rowe Counseling</h1>
+          <h1>John Rowe Counseling</h1>
         </div>
       </div>
     </div>
