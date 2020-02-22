@@ -71,64 +71,74 @@
         <h2 class="text-center">Specialties</h2>
       </div>
     </div>
-    <div class="row">
+      <ul class="row justify-content-center">
+        <li class="col-sm-5 col-lg-4 col-xl-3">EMDR</li>
+        <li class="col-sm-5 col-lg-4 col-xl-3">Trauma Informed Care</li>
+        <li class="col-sm-5 col-lg-4 col-xl-3">Anxiety and Depression</li>
+        <li class="col-sm-5 col-lg-4 col-xl-3">Life Transitions</li>
+        <li class="col-sm-5 col-lg-4 col-xl-3">Survivors of Crime</li>
+        <li class="col-sm-5 col-lg-4 col-xl-3">Survivors of Sexual Violence</li>
+        <li class="col-sm-5 col-lg-4 col-xl-3">Community Re-Entry</li>
+        <li class="col-sm-5 col-lg-4 col-xl-3">Co-Occurring Substance Use and Mental Health problems</li>
+      </ul>
+    <!-- <div class="row">
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">EMDR</h5>
+            <h6 class="card-title">EMDR</h6>
           </div>
         </div>
       </div>
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Trauma Informed Care</h5>
+            <h6 class="card-title">Trauma Informed Care</h6>
           </div>
         </div>
       </div>
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Anxiety and Depression</h5>
+            <h6 class="card-title">Anxiety and Depression</h6>
           </div>
         </div>
       </div>
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Life Transitions</h5>
+            <h6 class="card-title">Life Transitions</h6>
           </div>
         </div>
       </div>
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Survivors of Crime</h5>
+            <h6 class="card-title">Survivors of Crime</h6>
           </div>
         </div>
       </div>
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Survivors of Sexual Violence</h5>
+            <h6 class="card-title">Survivors of Sexual Violence</h6>
           </div>
         </div>
       </div>
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Community Re-Entry</h5>
+            <h6 class="card-title">Community Re-Entry</h6>
           </div>
         </div>
       </div>
       <div class="col-xl-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Co-Occurring Substance Use and Mental Health problems</h5>
+            <h6 class="card-title">Co-Occurring Substance Use and Mental Health problems</h6>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 

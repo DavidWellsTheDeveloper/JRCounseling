@@ -148,6 +148,7 @@ footer {
     transform: translateY(-50%);
     bottom: 0;
     top: 50%;
+    color: black;
 
   }
 }
@@ -163,9 +164,20 @@ footer {
     margin-bottom: 1em;
     @include semi-trasparent($color-secondary-2-light, .8);
   }
-  .card {
-    margin-bottom: .8em;
-    @include semi-trasparent($color-secondary-2-light, .8);
+  // .card {
+  //   margin-bottom: .5em;
+  //   @include semi-trasparent($color-secondary-2-light, .8);
+  // }
+  ul {
+    margin: 1em;
+    li {
+      font-weight: bold;
+      margin: .5em;
+      padding: .5em;
+      list-style-type: none;
+      border-radius: .4em;
+       @include semi-trasparent($color-secondary-2-light, .8);
+    }
   }
 }
 
