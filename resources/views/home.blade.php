@@ -64,6 +64,36 @@
   <!-- End of Carousel -->
 </div>
 
+<div class="section" id="about">
+  <div class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="col-md-8">
+        <h2>About Me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-xl-5">
+        <img class="img img-fluid" src="img/john-portrait.jpg" alt="Photo of John Rowe">
+      </div>
+      <div class="col-lg-6 col-xl-7">
+        <p>There is no doubt that the most important part in seeking help is the development of a strong
+relationship with your provider. I feel it is important to know who is going to be in your corner, so I
+would like to begin by sharing my journey with you. My career as a therapist began following many
+years in Durango, Colorado where I thrived as a whitewater and mountain guide and learned the power
+of mentorship, of community, and of self-love and care. After attending field school in clinical
+psychology, I entered graduate studies at the University of Denver’s Four Corners School of Social Work.
+While working on the street, in jails, in outpatient treatment, crises centers, and in community health
+centers I came to specialize in practice with rural and tribal populations with a focus on advanced clinical
+practice. After providing services in a wilderness treatment program I later moved into a position as the
+primary family therapist in the long-term residential treatment setting. I later moved on to serve as a
+therapist for survivors of sexual violence. My most recent projects have involved assisting in the
+development of a long term residential and wilderness program, and collaboration on starting a
+nonprofit for kitchen staff.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="section parallax" id="specialty">
   <div class="container-fluid">
     <div class="row justify-content-around">
@@ -142,35 +172,7 @@
   </div>
 </div>
 
-<div class="section" id="about">
-  <div class="container-fluid">
-    <div class="row justify-content-around">
-      <div class="col-md-8">
-        <h2>About Me</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-xl-5">
-        <img class="img img-fluid" src="img/john-portrait.jpg" alt="Photo of John Rowe">
-      </div>
-      <div class="col-lg-6 col-xl-7">
-        <p>There is no doubt that the most important part in seeking help is the development of a strong
-relationship with your provider. I feel it is important to know who is going to be in your corner, so I
-would like to begin by sharing my journey with you. My career as a therapist began following many
-years in Durango, Colorado where I thrived as a whitewater and mountain guide and learned the power
-of mentorship, of community, and of self-love and care. After attending field school in clinical
-psychology, I entered graduate studies at the University of Denver’s Four Corners School of Social Work.
-While working on the street, in jails, in outpatient treatment, crises centers, and in community health
-centers I came to specialize in practice with rural and tribal populations with a focus on advanced clinical
-practice. After providing services in a wilderness treatment program I later moved into a position as the
-primary family therapist in the long-term residential treatment setting. I later moved on to serve as a
-therapist for survivors of sexual violence. My most recent projects have involved assisting in the
-development of a long term residential and wilderness program, and collaboration on starting a
-nonprofit for kitchen staff.</p>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 <div class="section parallax-2" id="approach">
   <div class="container-fluid">
