@@ -32,12 +32,6 @@
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
-      <!-- <div class="carousel-item">
-        <img src="{{url('img/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg')}}" alt="forest with sunbeams">
-        <div class="carousel-caption">
-          <h1>John Rowe Counseling</h1>
-        </div>
-      </div> -->
       <div class="carousel-item">
         <img src="{{url('img/janke-laskowski-WJyCRU1m7h8-unsplash.jpg')}}" alt="lake with rock spire">
         <div class="carousel-caption">
@@ -100,13 +94,166 @@ nonprofit for kitchen staff.</p>
   </div>
 </div>
 
-<div class="section parallax" id="specialty">
+<div class="section" id="specialty">
   <div class="container-fluid">
     <div class="row justify-content-around">
       <div class="col-md-8">
         <h2 class="text-center">Specialties</h2>
       </div>
     </div>
+    <div class="row justify-content-around">
+      <div id="accordion" class="col-lg-10 col-12 justify-content-around">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                EMDR
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Eye Movement Desensitization and Reprocessing (EMDR) therapy is an interactive psychotherapy technique used to relieve psychological stress. It is an effective treatment for trauma and post-traumatic stress disorder (PTSD).
+              During EMDR therapy sessions, you relive traumatic or triggering experiences in brief doses while the therapist directs your eye movements.
+              EMDR is thought to be effective because recalling distressing events is often less emotionally upsetting when your attention is diverted. This allows you to be exposed to the memories or thoughts without having a strong psychological response.
+              Over time, this technique is believed to lessen the impact that the memories or thoughts have on you.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Trauma Informed Care
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              Some Text about Trauma Informed Care
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Anxiety and Depression
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Something about anxiety and depression treatments.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Life Transitions
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              Something about life transitions.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Survivors of Crime
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+              Something about survivors of crime treatments.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Survivors of Sexual Violence
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              Something about survivors of sexual violence.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Community Re-Entry
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+              Something about community re-entry.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingEight">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                Co-Occurring Substance Use and Mental Health problems
+              </button>
+            </h5>
+          </div>
+          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+            <div class="card-body">
+              Something about Co-Occurring Substance Use and Mental Health problems.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- <ul class="row justify-content-center">
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>EMDR</li>
+        </div>
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>Trauma Informed Care</li>
+        </div>
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>Anxiety and Depression</li>
+        </div>
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>Life Transitions</li>
+        </div>
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>Survivors of Crime</li>
+        </div>
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>Survivors of Sexual Violence</li>
+        </div>
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>Community Re-Entry</li>
+        </div>
+        <div class="col-sm-5 col-lg-4 col-xl-3">
+          <li>Co-Occurring Substance Use and Mental Health problems</li>
+        </div>
+      </ul>
       <ul class="row justify-content-center">
         <li class="col-sm-5 col-lg-4 col-xl-3">EMDR</li>
         <li class="col-sm-5 col-lg-4 col-xl-3">Trauma Informed Care</li>
@@ -116,65 +263,7 @@ nonprofit for kitchen staff.</p>
         <li class="col-sm-5 col-lg-4 col-xl-3">Survivors of Sexual Violence</li>
         <li class="col-sm-5 col-lg-4 col-xl-3">Community Re-Entry</li>
         <li class="col-sm-5 col-lg-4 col-xl-3">Co-Occurring Substance Use and Mental Health problems</li>
-      </ul>
-    <!-- <div class="row">
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">EMDR</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Trauma Informed Care</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Anxiety and Depression</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Life Transitions</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Survivors of Crime</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Survivors of Sexual Violence</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Community Re-Entry</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12">
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Co-Occurring Substance Use and Mental Health problems</h6>
-          </div>
-        </div>
-      </div>
-    </div> -->
+      </ul> -->
   </div>
 </div>
 

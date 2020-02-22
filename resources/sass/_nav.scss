@@ -1,22 +1,14 @@
 nav {
-  background-color: $color-primary-dark;
+  background-color: $color-secondary-2-darker;
   .navbar-toggler {
-    color: $color-complement-lighter;
+    color: $color-secondary-2-lighter;
   }
   ul {
     li a {
-      color: $color-complement-light;
+      color: $color-secondary-2-light;
       &:hover {
-        color: $color-complement-darker;
-        background-color: $color-primary-light;
-      }
-    }
-    .active a{
-      color: $color-primary;
-      background-color: $color-secondary-2-lighter;
-      &:hover {
-        background-color: $color-secondary-1-light;
-        color: $color-primary-dark;
+        color: $color-secondary-2-darker;
+        background-color: $color-secondary-2-light;
       }
     }
   }
@@ -24,7 +16,7 @@ nav {
     float:left;
     min-height: 55px;
     padding: 0 0 0;
-    color: $color-primary-light;
+    color: $color-complement-light;
     font-size: 2em;
   }
 }

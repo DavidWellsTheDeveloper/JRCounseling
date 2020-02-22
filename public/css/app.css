@@ -1,56 +1,31 @@
 nav {
-  background-color: #042640;
+  background-color: #2F000E;
 }
 
 nav .navbar-toggler {
-  color: #FFFFFF;
+  color: #EEE8EA;
 }
 
 nav ul li a {
-  color: #F0CEA0;
+  color: #CC869B;
 }
 
 nav ul li a:hover {
-  color: #1D1100;
-  background-color: #6A869B;
-}
-
-nav ul .active a {
-  color: #29506D;
-  background-color: #E3E3E3;
-}
-
-nav ul .active a:hover {
-  background-color: #7979A8;
-  color: #042640;
+  color: #2F000E;
+  background-color: #CC869B;
 }
 
 nav .navbar-brand {
   float: left;
   min-height: 55px;
   padding: 0 0 0;
-  color: #6A869B;
+  color: #E4AC96;
   font-size: 2em;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url(/images/roya-ann-miller-E2_k8SsuS7s-unsplash.jpg?9a657cd13b6c9faaa6e8e5c0c1fd59cd);
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax .semi-trans {
-  background: #E3E3E3;
-  background: rgba(227, 227, 227, 0.6);
 }
 
 .parallax-2 {
   /* The image used */
-  background-image: url(/images/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg?8920a901996568bd059102ecd4461b5a);
+  background-image: url(/images/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg?11ce57890d43b6d4fcee973728135c97);
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -59,13 +34,13 @@ nav .navbar-brand {
 }
 
 .parallax-2 .semi-trans {
-  background: #E5E5E5;
-  background: rgba(229, 229, 229, 0.6);
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.7);
 }
 
 .parallax-3 {
   /* The image used */
-  background-image: url(/images/raquel-garcia-BAiSZDx4LgE-unsplash.jpg?5d3f049bcf9395cf1e206a42e5c9a6fb);
+  background-image: url(/images/sydney-angove-GJJGpecwvMs-unsplash.jpg?c8ba37019e007960d91926a354b7bcc0);
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -74,8 +49,8 @@ nav .navbar-brand {
 }
 
 .parallax-3 .semi-trans {
-  background: #E5E5E5;
-  background: rgba(229, 229, 229, 0.6);
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.7);
 }
 
 body {
@@ -83,7 +58,7 @@ body {
 }
 
 footer {
-  background-color: #E5E5E5;
+  background-color: #C8CDCB;
 }
 
 #gallery {
@@ -113,14 +88,26 @@ footer {
 }
 
 #specialty {
+  background-image: url(/images/roya-ann-miller-E2_k8SsuS7s-unsplash.jpg?0af0f0bcdb4673f3d26a4b148c236886);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 2.5em;
+}
+
+#specialty .semi-trans {
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.7);
 }
 
 #specialty h2 {
   padding: 1em;
   margin-bottom: 1em;
-  background: #6EA58D;
-  background: rgba(110, 165, 141, 0.8);
+  border-radius: 0.4em;
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.8);
 }
 
 #specialty ul {
@@ -129,31 +116,49 @@ footer {
 
 #specialty ul li {
   font-weight: bold;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
   padding: 0.5em;
   list-style-type: none;
   border-radius: 0.4em;
-  background: #6EA58D;
-  background: rgba(110, 165, 141, 0.8);
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.8);
 }
 
-#about {
-  background-color: #0A0A46;
+#specialty #accordion .card {
+  border-radius: 1em;
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.9);
 }
 
-#about h2 {
-  background: #7979A8;
-  background: rgba(121, 121, 168, 0.8);
-  margin: 1em;
-  padding: 1em;
+#specialty #accordion .card .card-header {
+  background: #002415;
+  border-radius: 1em;
   text-align: center;
 }
 
+#specialty #accordion .card .card-header h5 button {
+  color: white;
+}
+
+#about {
+  background-color: #014D2C;
+}
+
+#about h2 {
+  background: #002415;
+  background: rgba(0, 36, 21, 0.8);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  color: #679D85;
+}
+
 #about p {
-  background: #E5E5E5;
-  background: rgba(229, 229, 229, 0.8);
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.8);
   margin: 0 1em;
   padding: 1em;
+  color: #002415;
 }
 
 #about img {
@@ -167,32 +172,32 @@ footer {
 #approach h2 {
   padding: 1em;
   margin-bottom: 1em;
-  background: #6A869B;
-  background: rgba(106, 134, 155, 0.8);
+  background: #679D85;
+  background: rgba(103, 157, 133, 0.8);
 }
 
 #approach p {
   margin-bottom: 0.8em;
   padding: 1em;
-  background: #6A869B;
-  background: rgba(106, 134, 155, 0.8);
+  background: #679D85;
+  background: rgba(103, 157, 133, 0.8);
 }
 
 #services {
-  background-color: #643900;
+  background-color: #014D2C;
 }
 
 #services h2 {
-  background: #F0CEA0;
-  background: rgba(240, 206, 160, 0.8);
+  background: #679D85;
+  background: rgba(103, 157, 133, 0.8);
   margin: 1em;
   padding: 1em;
   text-align: center;
 }
 
 #services p {
-  background: #FFFFFF;
-  background: rgba(255, 255, 255, 0.8);
+  background: #C8CDCB;
+  background: rgba(200, 205, 203, 0.8);
   margin: 0 1em;
   padding: 1em;
 }
@@ -208,15 +213,15 @@ footer {
 #tele-therapy h2 {
   padding: 1em;
   margin-bottom: 1em;
-  background: #7979A8;
-  background: rgba(121, 121, 168, 0.8);
+  background: #679D85;
+  background: rgba(103, 157, 133, 0.8);
 }
 
 #tele-therapy p {
   margin-bottom: 0.8em;
   padding: 1em;
-  background: #7979A8;
-  background: rgba(121, 121, 168, 0.8);
+  background: #679D85;
+  background: rgba(103, 157, 133, 0.8);
 }
 
 @media (min-width: 900px) {

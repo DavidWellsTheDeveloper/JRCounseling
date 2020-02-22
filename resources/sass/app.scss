@@ -1,56 +1,43 @@
 //
 // SASS style sheet */
 // Palette color codes */
-// Palette URL: http://paletton.com/#uid=53x0u0kllll00Q0aGuaw0cw++3F */
+// Palette URL: http://paletton.com/#uid=4330u0kllll0MH0b3sFvCe0YI6F */
 
 
 
 // As hex codes */
 
-$color-primary: #29506D;	// Main Primary color */
-$color-primary-lighter: #E0E0E0;
-$color-primary-light: #6A869B;
-$color-primary-dark: #042640;
-$color-primary-darker: #000B13;
+$color-primary: #277553;	// Main Primary color */
+$color-primary-lighter: #C8CDCB;
+$color-primary-light: #679D85;
+$color-primary-dark: #014D2C;
+$color-primary-darker: #002415;
 
-$color-secondary: #343477;	// Main Secondary color (1) */
-$color-secondary-1-lighter: #E5E5E5;
-$color-secondary-1-light: #7979A8;
-$color-secondary-1-dark: #0A0A46;
-$color-secondary-1-darker: #000014;
+$color-secondary-1: #AA7939;	// Main Secondary color (1) */
+$color-secondary-1-lighter: #FFFCF9;
+$color-secondary-1-light: #E4C396;
+$color-secondary-1-dark: #704001;
+$color-secondary-1-darker: #351E00;
 
-$color-secondary: #277553;	// Main Secondary color (2) */
-$color-secondary-2-lighter: #E3E3E3;
-$color-secondary-2-light: #6EA58D;
-$color-secondary-2-dark: #004427;
-$color-secondary-2-darker: #00140B;
+$color-secondary-2: #983351;	// Main Secondary color (2) */
+$color-secondary-2-lighter: #EEE8EA;
+$color-secondary-2-light: #CC869B;
+$color-secondary-2-dark: #64011F;
+$color-secondary-2-darker: #2F000E;
 
-$color-complement: #AA7939;	// Main Complement color */
-$color-complement-lighter: #FFFFFF;
-$color-complement-light: #F0CEA0;
-$color-complement-dark: #643900;
-$color-complement-darker: #1D1100;
-
+$color-complement: #AA5939;	// Main Complement color */
+$color-complement-lighter: #FFFBF9;
+$color-complement-light: #E4AC96;
+$color-complement-dark: #702101;
+$color-complement-darker: #350F00;
 
 // As RGBa codes */
 
-$rgba-primary: rgba( 41, 80,109,1);	// Main Primary color */
-$rgba-primary-lighter: rgba(224,224,224,1);
-$rgba-primary-light: rgba(106,134,155,1);
-$rgba-primary-dark: rgba(  4, 38, 64,1);
-$rgba-primary-darker: rgba(  0, 11, 19,1);
-
-$rgba-secondary: rgba( 52, 52,119,1);	// Main Secondary color (1) */
-$rgba-secondary-1-lighter: rgba(229,229,229,1);
-$rgba-secondary-1-light: rgba(121,121,168,1);
-$rgba-secondary-1-dark: rgba( 10, 10, 70,1);
-$rgba-secondary-1-darker: rgba(  0,  0, 20,1);
-
-$rgba-secondary: rgba( 39,117, 83,1);	// Main Secondary color (2) */
-$rgba-secondary-2-lighter: rgba(227,227,227,1);
-$rgba-secondary-2-light: rgba(110,165,141,1);
-$rgba-secondary-2-dark: rgba(  0, 68, 39,1);
-$rgba-secondary-2-darker: rgba(  0, 20, 11,1);
+$rgba-primary: rgba( 39,117, 83,1);	// Main primary color */
+$rgba-primary-lighter: rgba(227,227,227,1);
+$rgba-primary-light: rgba(110,165,141,1);
+$rgba-primary-dark: rgba(  0, 68, 39,1);
+$rgba-primary-darker: rgba(  0, 20, 11,1);
 
 @import "nav";
 
@@ -59,42 +46,18 @@ $rgba-secondary-2-darker: rgba(  0, 20, 11,1);
   background: rgba($color, $opacity);
 }
 
-// h1 {
-//   font-size: 5rem;
-// }
-//
-// h2 {
-//   font-size: 4rem;
-// }
-//
-// h3 {
-//   font-size: 3rem;
-// }
-//
-// h4 {
-//   font-size: 2.2rem;
-// }
-//
-// h5 {
-//   font-size: 1.7rem;
-// }
-//
-// p {
-//   font-size: 1.2rem;
-// }
-
-.parallax {
-  /* The image used */
-  background-image: url("../img/roya-ann-miller-E2_k8SsuS7s-unsplash.jpg");
+@mixin parallax($backgroundImg) {
+  background-image: url($backgroundImg);
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  .semi-trans {
-    @include semi-trasparent($color-secondary-2-lighter, .6);
-  }
+}
+
+.parallax {
+
 }
 
 .parallax-2 {
@@ -107,13 +70,13 @@ $rgba-secondary-2-darker: rgba(  0, 20, 11,1);
   background-repeat: no-repeat;
   background-size: cover;
   .semi-trans {
-    @include semi-trasparent($color-secondary-1-lighter, .6);
+    @include semi-trasparent($color-primary-lighter, .7);
   }
 }
 
 .parallax-3 {
   /* The image used */
-  background-image: url("../img/raquel-garcia-BAiSZDx4LgE-unsplash.jpg");
+  background-image: url("../img/sydney-angove-GJJGpecwvMs-unsplash.jpg");
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -121,7 +84,7 @@ $rgba-secondary-2-darker: rgba(  0, 20, 11,1);
   background-repeat: no-repeat;
   background-size: cover;
   .semi-trans {
-    @include semi-trasparent($color-secondary-1-lighter, .6);
+    @include semi-trasparent($color-primary-lighter, .7);
   }
 }
 
@@ -130,7 +93,7 @@ body {
 }
 
 footer {
-  background-color: $color-secondary-1-lighter;
+  background-color: $color-primary-lighter;
 }
 
 #gallery {
@@ -158,41 +121,61 @@ footer {
 }
 
 #specialty {
+  @include parallax("../img/roya-ann-miller-E2_k8SsuS7s-unsplash.jpg");
+  .semi-trans {
+    @include semi-trasparent($color-primary-lighter, .7);
+  }
   padding-top: 2.5em;
   h2 {
     padding: 1em;
     margin-bottom: 1em;
-    @include semi-trasparent($color-secondary-2-light, .8);
+    border-radius: .4em;
+    @include semi-trasparent($color-primary-lighter, .8);
   }
-  // .card {
-  //   margin-bottom: .5em;
-  //   @include semi-trasparent($color-secondary-2-light, .8);
-  // }
   ul {
     margin: 1em;
     li {
       font-weight: bold;
-      margin: .5em;
+      margin-bottom: .5em;
       padding: .5em;
       list-style-type: none;
       border-radius: .4em;
-       @include semi-trasparent($color-secondary-2-light, .8);
+       @include semi-trasparent($color-primary-lighter, .8);
+    }
+  }
+  #accordion {
+    $accordionBorder: 1em;
+    .card {
+      border-radius: $accordionBorder;
+      @include semi-trasparent($color-primary-lighter, .9);
+      .card-header {
+        background: $color-primary-darker;
+        border-radius: $accordionBorder;
+        text-align: center;
+        h5 {
+          button {
+            color: white;
+          }
+        }
+      }
     }
   }
 }
 
 #about {
-  background-color: $color-secondary-1-dark;
+  background-color: $color-primary-dark;
   h2 {
-    @include semi-trasparent($color-secondary-1-light, .8);
+    @include semi-trasparent($color-primary-darker, .8);
     margin: 1em;
     padding: 1em;
     text-align: center;
+    color: $color-primary-light;
   }
   p {
-    @include semi-trasparent($color-secondary-1-lighter, .8);
+    @include semi-trasparent($color-primary-lighter, .8);
     margin: 0 1em;
     padding: 1em;
+    color: $color-primary-darker;
   }
   img {
     margin: 1em;
@@ -214,15 +197,15 @@ footer {
 }
 
 #services {
-  background-color: $color-complement-dark;
+  background-color: $color-primary-dark;
   h2 {
-    @include semi-trasparent($color-complement-light, .8);
+    @include semi-trasparent($color-primary-light, .8);
     margin: 1em;
     padding: 1em;
     text-align: center;
   }
   p {
-    @include semi-trasparent($color-complement-lighter, .8);
+    @include semi-trasparent($color-primary-lighter, .8);
     margin: 0 1em;
     padding: 1em;
   }
@@ -236,12 +219,12 @@ footer {
   h2 {
     padding: 1em;
     margin-bottom: 1em;
-    @include semi-trasparent($color-secondary-1-light, .8);
+    @include semi-trasparent($color-primary-light, .8);
   }
   p {
     margin-bottom: .8em;
     padding: 1em;
-    @include semi-trasparent($color-secondary-1-light, .8);
+    @include semi-trasparent($color-primary-light, .8);
   }
 }
 
