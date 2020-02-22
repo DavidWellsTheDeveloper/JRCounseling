@@ -21,17 +21,23 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{url('img/ben-karpinski-aJAfKxscG3k-unsplash.jpg')}}" alt="misty mountain">
+        <img src="{{url('img/raquel-garcia-BAiSZDx4LgE-unsplash.jpg')}}" alt="Soft mountains">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{url('img/emre-ozturk-lfyKGQWEbew-unsplash.jpg')}}" alt="sunny mushrooms">
+        <img src="{{url('img/ben-karpinski-aJAfKxscG3k-unsplash.jpg')}}" alt="misty mountain">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
+      <!-- <div class="carousel-item">
+        <img src="{{url('img/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg')}}" alt="forest with sunbeams">
+        <div class="carousel-caption">
+          <h1>John Rowe Counseling</h1>
+        </div>
+      </div> -->
       <div class="carousel-item">
         <img src="{{url('img/janke-laskowski-WJyCRU1m7h8-unsplash.jpg')}}" alt="lake with rock spire">
         <div class="carousel-caption">
