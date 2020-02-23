@@ -15,43 +15,42 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{url('img/alex-dukhanov-MFM8ASk4XNs-unsplash.jpg')}}" alt="snowy trees">
+        <img src="{{url('img/carousel/alex-dukhanov-MFM8ASk4XNs-unsplash.jpg')}}" alt="snowy trees">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{url('img/raquel-garcia-BAiSZDx4LgE-unsplash.jpg')}}" alt="Soft mountains">
+        <img src="{{url('img/carousel/raquel-garcia-BAiSZDx4LgE-unsplash.jpg')}}" alt="Soft mountains">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{url('img/ben-karpinski-aJAfKxscG3k-unsplash.jpg')}}" alt="misty mountain">
+        <img src="{{url('img/carousel/ben-karpinski-aJAfKxscG3k-unsplash.jpg')}}" alt="misty mountain">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{url('img/janke-laskowski-WJyCRU1m7h8-unsplash.jpg')}}" alt="lake with rock spire">
+        <img src="{{url('img/carousel/janke-laskowski-WJyCRU1m7h8-unsplash.jpg')}}" alt="lake with rock spire">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{url('img/julie-marsh-payOjEt5qYY-unsplash.jpg')}}" alt="Tall forest">
+        <img src="{{url('img/carousel/julie-marsh-payOjEt5qYY-unsplash.jpg')}}" alt="Tall forest">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{url('img/luca-zanon-X0OoHrPvgXE-unsplash.jpg')}}" alt="Soft mountains">
+        <img src="{{url('img/carousel/luca-zanon-X0OoHrPvgXE-unsplash.jpg')}}" alt="Soft mountains">
         <div class="carousel-caption">
           <h1>John Rowe Counseling</h1>
         </div>
       </div>
     </div>
-    <!-- Start Slider Controls -->
     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -61,7 +60,6 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <!-- End of Carousel -->
 </div>
 
 <div class="section" id="about">
